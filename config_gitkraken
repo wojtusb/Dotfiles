@@ -1,0 +1,188 @@
+{
+  "lastUpgradeScriptRun": "v9.13.0",
+  "appId": "ab8c2dc5193c400f6b1fce3269883396b6cea330",
+  "appLocale": "pl-PL",
+  "appDateFormat": null,
+  "appDateTimeFormat": null,
+  "appDateWordFormat": null,
+  "appDateVerboseFormat": null,
+  "userMilestones": {
+    "installId": "1e8369c2-afdc-4847-8aa2-fcabcb39dbc0",
+    "firstAppOpen": true,
+    "firstLoginRegister": true,
+    "startATrial": true,
+    "guideOpened": true,
+    "firstProfileCreated": true,
+    "completedNewUserOnboarding": true,
+    "firstRepoOpened": true,
+    "connectIntegration": true
+  },
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "9.13.0",
+  "ui": {
+    "shouldShowStartupPromoModal": false
+  },
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "windowSettings": {
+    "x": 0,
+    "y": 28,
+    "width": 1920,
+    "height": 1008,
+    "fullScreen": false,
+    "maximized": true
+  },
+  "registration": {
+    "EULA": {
+      "status": "agree_verified",
+      "version": "8.3.1"
+    },
+    "status": "activated",
+    "email": "wojciech.brodowski@pitradwar.com",
+    "loginType": "username_and_password",
+    "date": "2024-04-05T12:52:47.555Z"
+  },
+  "licensedFeatures": [
+    "pro",
+    "gitgui:pro",
+    "gitlens:pro",
+    "bundle:pro",
+    "gitkraken_v1:pro",
+    "suite:pro",
+    "boards:pro",
+    "timelines:pro"
+  ],
+  "userFeatures": [
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "changePriceEnabled"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "experimentalAiCommmitMsg"
+    },
+    {
+      "name": "experimentalGitBinary"
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn971"
+    },
+    {
+      "name": "experimentalGitBinarySpawnServer961"
+    },
+    {
+      "name": "fall23PricingPromotion"
+    },
+    {
+      "name": "gitBash"
+    },
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "gkApi"
+    },
+    {
+      "name": "gkDotDevCodeSuggestions"
+    },
+    {
+      "name": "gkDotDevLaunchpad"
+    },
+    {
+      "name": "gkDotDevShowSubscriptionPage"
+    },
+    {
+      "name": "goldenTicketSpecial"
+    },
+    {
+      "name": "noGlobalFocusView"
+    },
+    {
+      "name": "onboardingGuide"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "unregisteredTrials"
+    },
+    {
+      "name": "velocityInClient_9_0_0"
+    },
+    {
+      "name": "workspacesPRComplexity"
+    }
+  ],
+  "userId": "352490c9-6043-4757-ab7a-53cb2fa66e79",
+  "orgSettingsByOrgId": {
+    "615ec769e0444100471b274d": {
+      "aiSettings": {
+        "enabled": true,
+        "createdAt": "2024-02-29T09:30:33.466688Z",
+        "updatedAt": "2024-02-29T09:30:33.466688Z"
+      },
+      "draftsSettings": {
+        "enabled": true,
+        "createdAt": "2024-02-29T09:30:33.003677Z",
+        "updatedAt": "2024-02-29T09:30:33.003677Z"
+      }
+    }
+  },
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/home/wojtek/Code/talininterface/": {
+          "id": "openRepo-/home/wojtek/Code/talininterface/",
+          "timestamps": [
+            1712321697364
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Code/fuzja/": {
+          "id": "openRepo-/home/wojtek/Code/fuzja/",
+          "timestamps": [
+            1712322100621
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Code/TalinEmulator": {
+          "id": "openRepo-/home/wojtek/Code/TalinEmulator",
+          "timestamps": [
+            1712833100127
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/.dotfiles/Dotfiles": {
+          "id": "openRepo-/home/wojtek/.dotfiles/Dotfiles",
+          "timestamps": [
+            1716889715508
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Dotfiles": {
+          "id": "openRepo-/home/wojtek/Dotfiles",
+          "timestamps": [
+            1716890276603
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Dotfiles/Dotfiles": {
+          "id": "openRepo-/home/wojtek/Dotfiles/Dotfiles",
+          "timestamps": [
+            1716890196306
+          ],
+          "total": 1
+        }
+      }
+    }
+  },
+  "commits": {
+    "maxCommitsInGraph": 2000
+  }
+}
