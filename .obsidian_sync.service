@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup obsidian notes
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/obsidian_backup.sh

@@ -1,0 +1,10 @@
+[Unit]
+Description=Run syncthing after boot, no GUI.
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/start_syncthing.sh
+User=wojtek
+
+[Install]
+WantedBy=graphical.target

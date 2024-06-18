@@ -1,0 +1,11 @@
+[Unit]
+Description=Backup obsidian notes
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+#OnCalendar=
+Persistent=false
+
+[Install]
+WantedBy=timers.target

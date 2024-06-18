@@ -1,20 +1,23 @@
 {
   "lastUpgradeScriptRun": "v9.13.0",
-  "appId": "837a72815e61be021434bb7319d9371f8bd83fda",
+  "appId": "ab8c2dc5193c400f6b1fce3269883396b6cea330",
   "appLocale": "pl-PL",
   "appDateFormat": null,
   "appDateTimeFormat": null,
   "appDateWordFormat": null,
   "appDateVerboseFormat": null,
   "userMilestones": {
-    "installId": "d666ea5c-3966-4708-8dfd-f084e670dc09",
+    "installId": "1e8369c2-afdc-4847-8aa2-fcabcb39dbc0",
     "firstAppOpen": true,
     "firstLoginRegister": true,
     "startATrial": true,
     "guideOpened": true,
     "firstProfileCreated": true,
     "completedNewUserOnboarding": true,
-    "firstRepoOpened": true
+    "firstRepoOpened": true,
+    "connectIntegration": true,
+    "createACommit": true,
+    "pushSomeCode": true
   },
   "sslWhitelist": [],
   "lastReleaseNotesDisplayed": "9.13.0",
@@ -26,10 +29,10 @@
     "tabs": {}
   },
   "windowSettings": {
-    "x": 449,
-    "y": 146,
-    "width": 1251,
-    "height": 800,
+    "x": 0,
+    "y": 28,
+    "width": 1920,
+    "height": 1008,
     "fullScreen": false,
     "maximized": true
   },
@@ -41,7 +44,7 @@
     "status": "activated",
     "email": "wojciech.brodowski@pitradwar.com",
     "loginType": "username_and_password",
-    "date": "2024-06-18T10:39:41.991Z"
+    "date": "2024-04-05T12:52:47.555Z"
   },
   "licensedFeatures": [
     "pro",
@@ -88,10 +91,10 @@
       "name": "gkApi"
     },
     {
-      "name": "gkDotDevShowAccountPage"
+      "name": "gkDotDevCodeSuggestions"
     },
     {
-      "name": "gkDotDevShowOrgSettingsPage"
+      "name": "gkDotDevLaunchpad"
     },
     {
       "name": "gkDotDevShowSubscriptionPage"
@@ -104,9 +107,6 @@
     },
     {
       "name": "onboardingGuide"
-    },
-    {
-      "name": "registeredForGST"
     },
     {
       "name": "terminalInsideRepoTab"
@@ -139,14 +139,52 @@
   "fuzzyFinderMetadata": {
     "itemMetadata": {
       "OPEN_REPO": {
+        "openRepo-/home/wojtek/Code/talininterface/": {
+          "id": "openRepo-/home/wojtek/Code/talininterface/",
+          "timestamps": [
+            1712321697364
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Code/fuzja/": {
+          "id": "openRepo-/home/wojtek/Code/fuzja/",
+          "timestamps": [
+            1712322100621
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Code/TalinEmulator": {
+          "id": "openRepo-/home/wojtek/Code/TalinEmulator",
+          "timestamps": [
+            1712833100127
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/.dotfiles/Dotfiles": {
+          "id": "openRepo-/home/wojtek/.dotfiles/Dotfiles",
+          "timestamps": [
+            1716889715508
+          ],
+          "total": 1
+        },
         "openRepo-/home/wojtek/Dotfiles": {
           "id": "openRepo-/home/wojtek/Dotfiles",
           "timestamps": [
-            1718707210015
+            1716890276603
+          ],
+          "total": 1
+        },
+        "openRepo-/home/wojtek/Dotfiles/Dotfiles": {
+          "id": "openRepo-/home/wojtek/Dotfiles/Dotfiles",
+          "timestamps": [
+            1716890196306
           ],
           "total": 1
         }
       }
     }
+  },
+  "commits": {
+    "maxCommitsInGraph": 2000
   }
 }
