@@ -12,6 +12,7 @@ sudo pacman -S --noconfirm exa
 sudo pacman -S --noconfirm fastfetch
 sudo pacman -S --noconfirm tldr
 sudo pacman -S --noconfirm nmap
+sudo pacman -S --noconfirm ssh
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 
 # Z Shell

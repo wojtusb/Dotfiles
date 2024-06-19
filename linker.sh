@@ -1,61 +1,45 @@
-#!/bin/sh
+#!/bin/bash
 
-configsArray=(\
-"~/.zshrc",\					#01
-"~/.bashrc",\					#02
-"~/.p10k.zsh",\					#03
-"~/.gitconfig",\				#04
-"~/.gitkraken/config",\				#05
-"~/.config/remmina/remmina.pref",\		#06
-"~/.local/share/konsole/konsolestaterc",\	#07
-"~/.local/share/konsole/wojtek.profile",\	#08
-"~/.config/obsidian/obsidian.json",\		#09
-"/usr/local/bin/obsidian_backup.sh",\		#10
-"/usr/local/bin/start_syncthing.sh",\		#11
-"/etc/systemd/system/obsidian_sync.service",\	#12
-"/etc/systemd/system/obsidian_sync.timer",\	#13
-"/etc/systemd/system/syncthing.service",\	#14
-"~/.config/spotify/prefs",\			#15
-"~/.config/audacity/audacity.cfg",\		#16
-"~/.config/fastfetch/config.jsonc",\		#17
-"~/.config/syncthing/config.xml",\		#18
-"~/.config/vlc/vlcrc")				#19
+configsArray=("/home/wojtek/.zshrc"			#1
+"/home/wojtek/.bashrc"					#2
+"/home/wojtek/.p10k.zsh"				#3
+"/home/wojtek/.gitconfig"				#4
+"/home/wojtek/.gitkraken/config"			#5
+"/home/wojtek/.config/remmina/remmina.pref"		#6
+"/home/wojtek/.local/share/konsole/konsolestaterc"	#7
+"/home/wojtek/.local/share/konsole/wojtek.profile"	#8
+"/home/wojtek/.config/obsidian/obsidian.json"		#9
+"/home/wojtek/.config/spotify/prefs"			#10
+"/home/wojtek/.config/audacity/audacity.cfg"		#11
+"/home/wojtek/.config/fastfetch/config.jsonc"		#12
+"/home/wojtek/.config/syncthing/config.xml"		#13
+"/home/wojtek/.config/vlc/vlcrc")			#14
 
-dotfilesArray=(\
-"~/Dotfiles/.zshrc",\
-"~/Dotfiles/.bashrc",\
-"~/Dotfiles/.p10k.zsh",\
-"~/Dotfiles/.gitconfig",\
-"~/Dotfiles/.config_gitkraken",\
-"~/Dotfiles/.config_remmina",\
-"~/Dotfiles/.config_konsole",\
-"~/Dotfiles/.profile_konsole",\
-"~/Dotfiles/.config_obsidian.json",\
-"~/Dotfiles/.obsidian_backup.sh",\
-"~/Dotfiles/.start_syncthing.sh",\
-"~/Dotfiles/.obsidian_sync.service",\
-"~/Dotfiles/.obsidian_sync.timer",\
-"~/Dotfiles/.syncthing.service",\
-"~/Dotfiles/.config_spotify",\
-"~/Dotfiles/.config_audaticy",\
-"~/Dotfiles/.config_fastfetch",\
-"~/Dotfiles/.config_syncthing",\
-"~/Dotfiles/.config_vlc")
+dotfilesArray=("/home/wojtek/Dotfiles/.zshrc"
+"/home/wojtek/Dotfiles/.bashrc"
+"/home/wojtek/Dotfiles/.p10k.zsh"
+"/home/wojtek/Dotfiles/.gitconfig"
+"/home/wojtek/Dotfiles/.config_gitkraken"
+"/home/wojtek/Dotfiles/.config_remmina"
+"/home/wojtek/Dotfiles/.config_konsole"
+"/home/wojtek/Dotfiles/.profile_konsole"
+"/home/wojtek/Dotfiles/.config_obsidian.json"
+"/home/wojtek/Dotfiles/.config_spotify"
+"/home/wojtek/Dotfiles/.config_audaticy"
+"/home/wojtek/Dotfiles/.config_fastfetch"
+"/home/wojtek/Dotfiles/.config_syncthing"
+"/home/wojtek/Dotfiles/.config_vlc")
 
-exclude=(2 3)
+exclude=(3 4)
 
 for i in "${!configsArray[@]}"; do
 	if [[ ${exclude[@]} =~ $i ]] then
-		rm ${configsArray[i]}
-		ln -s ${dotfilesArray[i]} ${configsArray[i]}
+		:
+	else
+		rm "${configsArray[i]}"
+		ln -s "${dotfilesArray[i]}" "${configsArray[i]}"
 	fi
 done
-
-sudo mv system-connections.tar.gz /etc/NetworkManager
-sudo chown root:root system-connections.tar.gz
-sudo mv system-connections system-connections_backup
-sudo tar -xzvf system-connections.tar.gz 
-sudo chmod 700 system-connections
 
 
 

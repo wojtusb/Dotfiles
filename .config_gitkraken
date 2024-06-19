@@ -1,5 +1,5 @@
 {
-  "lastUpgradeScriptRun": "v9.13.0",
+  "lastUpgradeScriptRun": "v10.0.0",
   "appId": "ab8c2dc5193c400f6b1fce3269883396b6cea330",
   "appLocale": "pl-PL",
   "appDateFormat": null,
@@ -20,7 +20,7 @@
     "pushSomeCode": true
   },
   "sslWhitelist": [],
-  "lastReleaseNotesDisplayed": "9.13.0",
+  "lastReleaseNotesDisplayed": "10.0.2",
   "ui": {
     "shouldShowStartupPromoModal": false
   },
@@ -41,21 +41,12 @@
       "status": "agree_verified",
       "version": "8.3.1"
     },
-    "status": "activated",
+    "status": "unregistered",
     "email": "wojciech.brodowski@pitradwar.com",
-    "loginType": "username_and_password",
+    "loginType": null,
     "date": "2024-04-05T12:52:47.555Z"
   },
-  "licensedFeatures": [
-    "pro",
-    "gitgui:pro",
-    "gitlens:pro",
-    "bundle:pro",
-    "gitkraken_v1:pro",
-    "suite:pro",
-    "boards:pro",
-    "timelines:pro"
-  ],
+  "licensedFeatures": [],
   "userFeatures": [
     {
       "name": "activityStatus"
@@ -91,10 +82,10 @@
       "name": "gkApi"
     },
     {
-      "name": "gkDotDevCodeSuggestions"
+      "name": "gkDotDevShowAccountPage"
     },
     {
-      "name": "gkDotDevLaunchpad"
+      "name": "gkDotDevShowOrgSettingsPage"
     },
     {
       "name": "gkDotDevShowSubscriptionPage"
@@ -109,6 +100,9 @@
       "name": "onboardingGuide"
     },
     {
+      "name": "registeredForGST"
+    },
+    {
       "name": "terminalInsideRepoTab"
     },
     {
@@ -121,7 +115,7 @@
       "name": "workspacesPRComplexity"
     }
   ],
-  "userId": "352490c9-6043-4757-ab7a-53cb2fa66e79",
+  "userId": null,
   "orgSettingsByOrgId": {
     "615ec769e0444100471b274d": {
       "aiSettings": {

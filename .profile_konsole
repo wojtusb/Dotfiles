@@ -1,5 +1,5 @@
 [Appearance]
-Font=Iosevka Nerd Font Mono,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=Iosevka Fixed,12,-1,5,50,0,0,0,0,0
 
 [General]
 Command=/bin/zsh
